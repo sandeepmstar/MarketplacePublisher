@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="IN-MDGTDTS1" name="marketplace.LoginPage_7S_UI" skipped="0" tests="1" time="16.698" timestamp="2015-11-12T05:43:34">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="eclipse.pdebuild.templates" value="/C:/Bindu/Releases/Eclipse_D/plugins/org.eclipse.pde.build_3.8.100.v20130514-1028/templates/" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="env.PROMPT" value="$P$G" />
+    <property name="os.name" value="Windows 7" />
+    <property name="env.FP_NO_HOST_CHECK" value="NO" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_60\lib\resources.jar;C:\Program Files\Java\jre1.8.0_60\lib\rt.jar;C:\Program Files\Java\jre1.8.0_60\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_60\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_60\lib\jce.jar;C:\Program Files\Java\jre1.8.0_60\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_60\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_60\classes" />
+    <property name="env.COMPUTERNAME" value="IN-MDGTDTS1" />
+    <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+    <property name="sun.desktop" value="windows" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="C:\Bindu\SeleniumServer\apache-ant-1.9.6" />
+    <property name="java.runtime.version" value="1.8.0_60-b27" />
+    <property name="env.HOMEPATH" value="\Users\bindu" />
+    <property name="user.name" value="bindu" />
+    <property name="env.QTJAVA" value="C:\Program Files (x86)\Java\jre7\lib\ext\QTJava.zip" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_60\bin" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="ant.project.name" value="Marketplace" />
+    <property name="java.version" value="1.8.0_60" />
+    <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 42 Stepping 7, GenuineIntel" />
+    <property name="user.timezone" value="" />
+    <property name="env.TEMP" value="C:\Users\bindu\AppData\Local\Temp" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_60\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="env.HOMEDRIVE" value="C:" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="ECLIPSE_HOME" value="../../../Releases/Eclipse_D" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_60" />
+    <property name="env.PSModulePath" value="C:\windows\system32\WindowsPowerShell\v1.0\Modules\" />
+    <property name="env.APPDATA" value="C:\Users\bindu\AppData\Roaming" />
+    <property name="env.PUBLIC" value="C:\Users\Public" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.ComSpec" value="C:\windows\system32\cmd.exe" />
+    <property name="env.OS" value="Windows_NT" />
+    <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+    <property name="ant.file" value="C:\Bindu\Automation\Marketplace\Marketplace\build.xml" />
+    <property name="os.version" value="6.1" />
+    <property name="env.ProgramW6432" value="C:\Program Files" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.60-b23" />
+    <property name="env.USERPROFILE" value="C:\Users\bindu" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="C:\Bindu\SeleniumServer\apache-ant-1.9.6\lib" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.7.0_51" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="env.TMP" value="C:\Users\bindu\AppData\Local\Temp" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="eclipse.pdebuild.scripts" value="/C:/Bindu/Releases/Eclipse_D/plugins/org.eclipse.pde.build_3.8.100.v20130514-1028/scripts/" />
+    <property name="user.home" value="C:\Users\bindu" />
+    <property name="target" value="1.5" />
+    <property name="env.ProgramData" value="C:\ProgramData" />
+    <property name="env.SESSIONNAME" value="Console" />
+    <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="env.CLASSPATH" value=".;C:\Program Files (x86)\Java\jre7\lib\ext\QTJava.zip" />
+    <property name="env.NUMBER_OF_PROCESSORS" value="8" />
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_60\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jre1.8.0_60/bin/server;C:/Program Files/Java/jre1.8.0_60/bin;C:/Program Files/Java/jre1.8.0_60/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Enterprise Vault\EVClient\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\QuickTime\QTSystem\;%JAVA_HOME%\bin;C:\Program Files (x86)\MATLAB\R2010b\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Java\jdk1.7.0_51\bin;C:\Bindu\SeleniumServer\apache-ant-1.9.6\bin;C:\Bindu\Releases\Eclipse_D;;." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="env.USERDNSDOMAIN" value="MORNINGSTAR.COM" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+    <property name="java.class.path" value="C:\Bindu\Automation\Marketplace\Marketplace\bin;C:\Bindu\SeleniumServer\selenium-server-standalone-2.48.2.jar;C:\Bindu\SeleniumServer\selenium-2.48.2\selenium-java-2.48.2.jar;C:\Bindu\SeleniumServer\selenium-2.48.2\selenium-java-2.48.2-srcs.jar;C:\Bindu\SeleniumServer\apache-log4j-1.2.17\log4j-1.2.17.jar;C:\Bindu\SeleniumServer\selenium-2.48.2\libs\testng-6.9.6.jar;C:\Bindu\Releases\Eclipse_D\plugins\org.testng.eclipse_6.8.6.20141201_2240\lib\testng.jar;C:\Bindu\Automation\Marketplace\Marketplace;C:\Program Files (x86)\Java\jre7\lib\ext\QTJava.zip;C:\Bindu\Releases\Eclipse_D\plugins\org.junit_4.11.0.v201303080030\junit.jar;C:\Bindu\SeleniumServer\apache-ant-1.9.6\lib\ant-launcher.jar;C:\Bindu\SeleniumServer\apache-ant-1.9.6\lib\ant.jar;C:\Bindu\SeleniumServer\apache-ant-1.9.6\lib\ant-junit.jar;C:\Bindu\SeleniumServer\apache-ant-1.9.6\lib\ant-junit4.jar" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner marketplace.LoginPage_7S_UI skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Bindu\Automation\Marketplace\Marketplace\junit\TEST-marketplace.LoginPage_7S_UI.xml crashfile=C:\Bindu\Automation\Marketplace\Marketplace\junitvmwatcher2234255910997736625.properties propsfile=C:\Bindu\Automation\Marketplace\Marketplace\junit8400422671496801601.properties" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="env.LOGONSERVER" value="\\MBDC1" />
+    <property name="env.windir" value="C:\windows" />
+    <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="ant.file.Marketplace" value="C:\Bindu\Automation\Marketplace\Marketplace\build.xml" />
+    <property name="sun.os.patch.level" value="Service Pack 1" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.ProgramFiles" value="C:\Program Files" />
+    <property name="env.ANT_HOME" value="C:\Bindu\SeleniumServer\apache-ant-1.9.6" />
+    <property name="java.io.tmpdir" value="C:\Users\bindu\AppData\Local\Temp\" />
+    <property name="env.PROCESSOR_REVISION" value="2a07" />
+    <property name="eclipse.pdebuild.home" value="/C:/Bindu/Releases/Eclipse_D/plugins/org.eclipse.pde.build_3.8.100.v20130514-1028/./" />
+    <property name="env.UATDATA" value="C:\windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77" />
+    <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.SystemRoot" value="C:\windows" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_60\lib\ext;C:\windows\Sun\Java\lib\ext" />
+    <property name="user.dir" value="C:\Bindu\Automation\Marketplace\Marketplace" />
+    <property name="env.LOCALAPPDATA" value="C:\Users\bindu\AppData\Local" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+    <property name="env.Path" value="C:/Program Files/Java/jre1.8.0_60/bin/server;C:/Program Files/Java/jre1.8.0_60/bin;C:/Program Files/Java/jre1.8.0_60/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Enterprise Vault\EVClient\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\QuickTime\QTSystem\;%JAVA_HOME%\bin;C:\Program Files (x86)\MATLAB\R2010b\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Java\jdk1.7.0_51\bin;C:\Bindu\SeleniumServer\apache-ant-1.9.6\bin;C:\Bindu\Releases\Eclipse_D;" />
+    <property name="env.JRE_HOME" value="C:\Program Files\Java\jre7" />
+    <property name="basedir" value="C:\Bindu\Automation\Marketplace\Marketplace" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="C:\Bindu\SeleniumServer\apache-ant-1.9.6\lib\ant.jar" />
+    <property name="env.USERNAME" value="bindu" />
+    <property name="env.SystemDrive" value="C:" />
+    <property name="source" value="1.5" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="env.USERDOMAIN" value="MSDOMAIN1" />
+    <property name="ant.file.type.Marketplace" value="file" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="ant.project.invoked-targets" value="build,Header_1S_MorningstarLogo,Header_2S_UserAccountInformation,Header_3S_LogOut,Header_4S_MorningstarMarketPlaceLogo,LoginPage_7S_UI (1),Footer_5S_FooterMenuBar,junitreport" />
+    <property name="env.PROCESSOR_LEVEL" value="6" />
+  </properties>
+  <testcase classname="marketplace.LoginPage_7S_UI" name="testLoginUI" time="14.116">
+    <error message="Cannot find elements when the XPath expression is null." type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.
+	at org.openqa.selenium.By.xpath(By.java:113)
+	at marketplace.LoginPage_7S_UI.testLoginUI(LoginPage_7S_UI.java:54)
+</error>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

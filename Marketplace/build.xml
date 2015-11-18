@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="Marketplace">
+    <property environment="env"/>
+    <property name="ECLIPSE_HOME" value="../../../Releases/Eclipse_D"/>
+    <property name="junit.output.dir" value="junit"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.5"/>
+    <property name="source" value="1.5"/>
+    <path id="TestNG.libraryclasspath">
+        <pathelement location="${ECLIPSE_HOME}/plugins/org.testng.eclipse_6.8.6.20141201_2240/lib/testng.jar"/>
+    </path>
+    <path id="Marketplace.classpath">
+        <pathelement location="bin"/>
+        <pathelement location="../../../SeleniumServer/selenium-server-standalone-2.48.2.jar"/>
+        <pathelement location="../../../SeleniumServer/selenium-2.48.2/selenium-java-2.48.2.jar"/>
+        <pathelement location="../../../SeleniumServer/selenium-2.48.2/selenium-java-2.48.2-srcs.jar"/>
+        <pathelement location="../../../SeleniumServer/apache-log4j-1.2.17/log4j-1.2.17.jar"/>
+        <pathelement location="../../../SeleniumServer/selenium-2.48.2/libs/testng-6.9.6.jar"/>
+        <path refid="TestNG.libraryclasspath"/>
+    </path>
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="Marketplace.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+    <target name="Footer_5S_FooterMenuBar">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="marketplace.Header.Footer.Footer_5S_FooterMenuBar" todir="${junit.output.dir}"/>
+            <classpath refid="Marketplace.classpath"/>
+        </junit>
+    </target>
+    <target name="Header_1S_MorningstarLogo">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="marketplace.Header.Footer.Header_1S_MorningstarLogo" todir="${junit.output.dir}"/>
+            <classpath refid="Marketplace.classpath"/>
+        </junit>
+    </target>
+    <target name="Header_2S_UserAccountInformation">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="marketplace.Header.Footer.Header_2S_UserAccountInformation" todir="${junit.output.dir}"/>
+            <classpath refid="Marketplace.classpath"/>
+        </junit>
+    </target>
+    <target name="Header_3S_LogOut">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="marketplace.Header.Footer.Header_3S_LogOut" todir="${junit.output.dir}"/>
+            <classpath refid="Marketplace.classpath"/>
+        </junit>
+    </target>
+    <target name="Header_4S_MorningstarMarketPlaceLogo">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="marketplace.Header.Footer.Header_4S_MorningstarMarketPlaceLogo" todir="${junit.output.dir}"/>
+            <classpath refid="Marketplace.classpath"/>
+        </junit>
+    </target>
+    <target name="LoginPage_7S_UI (1)">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="marketplace.LoginPage_7S_UI" todir="${junit.output.dir}"/>
+            <classpath refid="Marketplace.classpath"/>
+        </junit>
+    </target>
+    <target name="LoginPage_7S_UI_TestNG (1)">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="marketplace.LoginPage_7S_UI_TestNG" todir="${junit.output.dir}"/>
+            <classpath refid="Marketplace.classpath"/>
+        </junit>
+    </target>
+    <target name="Marketplace">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="marketplace.Header.Footer.Footer_5S_FooterMenuBar" todir="${junit.output.dir}"/>
+            <test name="marketplace.Header.Footer.Header_1S_MorningstarLogo" todir="${junit.output.dir}"/>
+            <test name="marketplace.Header.Footer.Header_2S_UserAccountInformation" todir="${junit.output.dir}"/>
+            <test name="marketplace.Header.Footer.Header_3S_LogOut" todir="${junit.output.dir}"/>
+            <test name="marketplace.Header.Footer.Header_4S_MorningstarMarketPlaceLogo" todir="${junit.output.dir}"/>
+            <test name="marketplace.LoginPage_7S_UI" todir="${junit.output.dir}"/>
+            <classpath refid="Marketplace.classpath"/>
+        </junit>
+    </target>
+    <target name="junitreport">
+        <junitreport todir="${junit.output.dir}">
+            <fileset dir="${junit.output.dir}">
+                <include name="TEST-*.xml"/>
+            </fileset>
+            <report format="frames" todir="${junit.output.dir}"/>
+        </junitreport>
+    </target>
+</project>
